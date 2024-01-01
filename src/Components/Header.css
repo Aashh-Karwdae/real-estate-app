@@ -1,0 +1,73 @@
+.fheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(4, 4, 67);
+    padding: 0px 10px; 
+    color:white;
+    font-weight:bold;
+    
+}
+
+.Header{
+    color: white;
+    text-decoration: none;
+}
+
+.HdrHeading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.secheading{
+    font-size: 20px;
+    color: rgb(15, 213, 85);
+    margin-right: 2px;
+}
+
+.serachbar{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: beige;
+    padding: 3px;
+    border-radius: 7px;
+    
+    
+}
+
+.SearchInput{
+ 
+ background-color:beige; 
+ border: none;
+ outline-style: none;
+ 
+
+}
+.SearcIcon{
+    color: rgb(18, 18, 39);
+    
+}
+
+.Pages{
+    
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    
+}
+.page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+
+
